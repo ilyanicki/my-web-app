@@ -1,0 +1,24 @@
+{
+  "name": "my-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+  "test": "jest",
+  "test:watch": "jest --watchAll"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyanicki/my-web-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyanicki/my-web-app/issues"
+  },
+  "homepage": "https://github.com/ilyanicki/my-web-app#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
