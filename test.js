@@ -1,9 +1,11 @@
 const fs = require('fs');
 
-test('Проверка наличия index.html', () => {
+describe('File existence checks', () => {
+  test('index.html exists', () => {
     expect(fs.existsSync('index.html')).toBe(true);
-});
-
-test('Проверка наличия styles.css', () => {
+  });
+  
+  test('styles.css exists', () => {
     expect(fs.existsSync('styles.css')).toBe(true);
+  });
 });
